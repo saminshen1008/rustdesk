@@ -1,0 +1,30 @@
+pip install openpyxl pandas
+
+pip install pandas openpyxl
+
+pip install openpyxl
+
+打包exe需要
+pip install pyinstaller pandas openpyxl
+
+打印
+pip install pywin32
+
+
+pip install pywin32 pillow pandas openpyxl
+
+
+打包 EXE 命令（最终版）
+bash
+运行
+pyinstaller -F -w --noconsole tool.py
+
+
+pip install pandas openpyxl pywin32 pillow tkinter
+
+
+
+以些程序为基础，修改。1、提取数据按钮变为绿色。2、增加打印预览、打印选中数据、打印全部。3、打印内容以excel表的形式出现，纸张大小10cm*10cm，表头为：海宁德孚力智能装备有限公司物料标识卡，物料标识卡换行，字体为宋体加租，表格内容有订单号，物料编码，物料名称，产品规格，数量，项目号，发货日期，表格内外有边框，文字居中。点打印后出现打印控制面板，用户自己选打印机和调整打印属性。
+
+
+编写一个html程序，可以让我下载，程序功能为读取导入的excel表中，采购订单号、序号、项目号、物料编码、物科名称、规格型号、单位、数量等列表信息，并排列输出
